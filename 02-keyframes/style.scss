@@ -9,6 +9,7 @@
   --transition-easing: cubic-bezier(0.5, 0, 0.5, 1);
   --animation-duration: 0.8s;
 }
+
 body {
   display: flex;
   justify-content: center;
@@ -30,12 +31,13 @@ body {
   // Add an animation here
 
   --color: var(--color-gray);
+
   &:focus-within {
     --color: var(--color-blue);
   }
 
-  > .ui-input,
-  > .ui-button {
+  >.ui-input,
+  >.ui-button {
     // Add an animation here
   }
 }
